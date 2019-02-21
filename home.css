@@ -1,0 +1,237 @@
+body {
+background-color: white;
+}
+
+#headerImage {
+  width: 100%;
+  height: 50%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin: none;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  border-top: 5px solid #DC715B;
+  /* position: -webkit-sticky; /* Safari */ */
+  /* position: fixed; */
+  /* top: 2; */
+}
+
+li {
+  float: left;
+}
+
+li a.active {
+  color: #DC715B;
+}
+
+li a:hover:not(.active) {
+  color: grey;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 120px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #B1432D;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  margin-top: 90;
+  margin-left: 160;
+  /* margin-right: 10; */
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+  height: 30%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.mainpageheadings {
+  display: block;
+  color: #AB6D78;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px 13px;
+  text-decoration: none;
+}
+
+#me {
+  width: auto;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#meimage {
+  width: 200px;
+  height: 200px;
+}
+
+.divider {
+  margin-top: 50%;
+  width: 250;
+  height: 120;
+  margin-bottom: -20%;
+}
+
+.divider2 {
+  margin-top: 10%;
+  width: 250;
+  height: 120;
+  margin-bottom: -20%;
+}
+
+/*
+.linktogoodreads {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding: 1px 13px;
+  text-decoration: none;
+} */
+
+#content #main .post {
+			position: relative; margin: 0 0 60px 0; padding: 0 0 66px 0; overflow: hidden;
+
+      /* border: 1px solid black; */
+		}
+			#content #main .post h2 {
+				float: left; margin: 0 0 10px 75px;
+				font: 24px Lucida Grande, Lucida Sans Unicode, Helvetica, Sans-Serif; letter-spacing: normal;
+			}
+			#content #main .post p.date {
+				position: absolute; left: 0; top: 0; padding: 4px 7px 4px 7px;
+				background: url(images/lines.png);
+				font: bold 40px Helvetica, Sans-Serif; color: #b6b6b1; text-align: center;
+			}
+				#content #main .post p.date span {
+					font: normal 20px Helvetica, Sans-Serif;
+					display: block; margin: -5px 0 0 0;
+				}
+			#content #main .post ul.meta {
+				float: left; list-style: none; margin: 0 0 30px 75px; overflow: hidden;
+				font: 16px Helvetica, Sans-Serif; color: #b6b6b1;
+			}
+				#content #main .post ul.meta li {
+					float: left; margin: 0 20px 0 0;
+				}
+					#content #main .post ul.meta li.comments {
+						padding: 0 0 0 32px; background: url(images/star.png) left center no-repeat;
+					}
+			#content #main .post .post-content {
+				clear: both;
+			}
+
+
+			#content #main .pagination {
+				margin: 0 0 60px 0; overflow: hidden;
+			}
+				#content #main .pagination p {
+					margin: 0;
+				}
+
+			#content #main .pagination p a {
+				display: block; width: 102px; height: 33px; overflow: hidden;
+				background: url(images/pagination-bg.png); font-size: 16px;
+			}
+				#content #main .pagination p.prev a {
+					float: left; padding: 14px 0 0 46px;
+				}
+				#content #main .pagination p.next a {
+					float: right; text-align: right; padding: 14px 46px 0 0;
+					background-position: 0 -47px;
+				}
+
+#postimage {
+  height: 300px;
+  width: 450px;
+}
+
+.link {
+  text-decoration: none;
+  color: #AB6D78;
+}
+
+.social {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #DC715B;
+}
+
+.designfooter {
+  background-color: #DC715B;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  height: 50px;
+  width: auto;
+}
+
+.button {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  background-color: #ED9B89;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #BE5943;
+  text-decoration: none;
+
+  /* opacity: 0.4; */
+}
